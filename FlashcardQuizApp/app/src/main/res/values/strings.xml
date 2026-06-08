@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CodeAlpha Flashcard Quiz</string>
+    <string name="home_title">Flashcard Quiz App</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="manage_flashcards">Manage Flashcards</string>
+    <string name="show_answer">Show Answer</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="add_flashcard">Add Flashcard</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="save">Save</string>
+    <string name="question">Question</string>
+    <string name="answer">Answer</string>
+</resources>
