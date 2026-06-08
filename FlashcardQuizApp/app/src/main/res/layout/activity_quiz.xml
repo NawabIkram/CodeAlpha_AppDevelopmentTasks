@@ -43,7 +43,9 @@
         android:layout_weight="1"
         app:cardBackgroundColor="@color/surface_white"
         app:cardElevation="2dp"
-        app:cardCornerRadius="8dp">
+        app:cardCornerRadius="8dp"
+        app:strokeColor="@color/surface_soft"
+        app:strokeWidth="1dp">
 
         <ScrollView
             android:layout_width="match_parent"
@@ -95,8 +97,10 @@
         android:id="@+id/showAnswerButton"
         android:layout_width="match_parent"
         android:layout_height="54dp"
+        android:backgroundTint="@color/primary_blue"
         android:text="@string/show_answer"
         android:textAllCaps="false"
+        android:textColor="@color/text_dark"
         android:textSize="16sp"
         app:cornerRadius="10dp" />
 
@@ -115,6 +119,7 @@
             android:layout_weight="1"
             android:text="@string/previous"
             android:textAllCaps="false"
+            android:textColor="@color/outline_blue"
             app:cornerRadius="10dp" />
 
         <com.google.android.material.button.MaterialButton
@@ -123,8 +128,10 @@
             android:layout_height="54dp"
             android:layout_marginStart="8dp"
             android:layout_weight="1"
+            android:backgroundTint="@color/primary_blue"
             android:text="@string/next"
             android:textAllCaps="false"
+            android:textColor="@color/text_dark"
             app:cornerRadius="10dp" />
 
     </LinearLayout>

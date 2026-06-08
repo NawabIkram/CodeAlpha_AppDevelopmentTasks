@@ -23,8 +23,10 @@
         android:id="@+id/addFlashcardButton"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
+        android:backgroundTint="@color/primary_blue"
         android:text="@string/add_flashcard"
         android:textAllCaps="false"
+        android:textColor="@color/text_dark"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="@id/manageTitleTextView"
         app:layout_constraintEnd_toEndOf="parent" />

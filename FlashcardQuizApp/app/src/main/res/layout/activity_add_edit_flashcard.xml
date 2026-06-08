@@ -31,6 +31,8 @@
             android:hint="@string/question"
             app:boxBackgroundColor="@color/surface_white"
             app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/outline_blue"
+            app:hintTextColor="@color/text_hint"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/addEditTitleTextView">
@@ -40,7 +42,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine|textCapSentences"
-                android:minLines="3" />
+                android:minLines="3"
+                android:textColor="@color/text_dark"
+                android:textColorHint="@color/text_hint" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -52,6 +56,8 @@
             android:hint="@string/answer"
             app:boxBackgroundColor="@color/surface_white"
             app:boxBackgroundMode="outline"
+            app:boxStrokeColor="@color/outline_blue"
+            app:hintTextColor="@color/text_hint"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/questionInputLayout">
@@ -61,7 +67,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textMultiLine|textCapSentences"
-                android:minLines="4" />
+                android:minLines="4"
+                android:textColor="@color/text_dark"
+                android:textColorHint="@color/text_hint" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -70,8 +78,10 @@
             android:layout_width="0dp"
             android:layout_height="56dp"
             android:layout_marginTop="28dp"
+            android:backgroundTint="@color/primary_blue"
             android:text="@string/save"
             android:textAllCaps="false"
+            android:textColor="@color/text_dark"
             android:textSize="16sp"
             app:cornerRadius="10dp"
             app:layout_constraintEnd_toEndOf="parent"

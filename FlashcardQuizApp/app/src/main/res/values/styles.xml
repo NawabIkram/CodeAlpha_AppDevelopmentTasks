@@ -4,9 +4,25 @@
         <item name="colorPrimary">@color/primary_blue</item>
         <item name="colorPrimaryVariant">@color/primary_blue_dark</item>
         <item name="colorSecondary">@color/accent_green</item>
+        <item name="colorOnPrimary">@color/text_dark</item>
+        <item name="colorOnSurface">@color/text_dark</item>
         <item name="android:fontFamily">sans</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightStatusBar">false</item>
         <item name="android:statusBarColor">@color/background_light</item>
-        <item name="android:navigationBarColor">@color/surface_white</item>
+        <item name="android:navigationBarColor">@color/background_light</item>
+        <item name="materialButtonOutlinedStyle">@style/AppOutlinedButton</item>
+        <item name="textInputStyle">@style/AppTextInputLayout</item>
+    </style>
+
+    <style name="AppOutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">@color/outline_blue</item>
+        <item name="strokeColor">@color/outline_blue</item>
+        <item name="rippleColor">@color/surface_soft</item>
+    </style>
+
+    <style name="AppTextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/outline_blue</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textColorHint">@color/text_hint</item>
     </style>
 </resources>
