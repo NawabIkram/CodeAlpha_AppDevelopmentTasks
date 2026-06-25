@@ -1,11 +1,11 @@
 # CodeAlpha App Development Tasks
 
-This repository contains separate Android projects for CodeAlpha App Development Internship tasks.
+This repository collects the Android projects completed for the CodeAlpha App Development Internship.
 
-## Projects
+## Included Projects
 
-- `FlashcardQuizApp` - Task 1: CodeAlpha Flashcard Quiz App
-- `CodeAlpha_RandomQuoteGenerator` - Task 2: CodeAlpha Random Quote Generator App
-- `CodeAlpha_FitnessTracker` - Task 3: CodeAlpha Fitness Tracker App
+- `FlashcardQuizApp` - Task 1: Flashcard Quiz App
+- `CodeAlpha_RandomQuoteGenerator` - Task 2: Random Quote Generator App
+- `CodeAlpha_FitnessTracker` - Task 3: Fitness Tracker App
 
-Open each project folder separately in Android Studio.
+Each project lives in its own folder and can be opened independently in Android Studio.
