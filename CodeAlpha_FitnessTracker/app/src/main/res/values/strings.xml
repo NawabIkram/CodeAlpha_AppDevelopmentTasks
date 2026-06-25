@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fitness Tracker</string>
+    <string name="app_logo">Fitness Tracker logo</string>
+    <string name="dashboard_title">Fitness Tracker</string>
+    <string name="dashboard_subtitle">Small steps. Stronger every day.</string>
+    <string name="total_activities">TOTAL ACTIVITIES</string>
+    <string name="total_duration">TOTAL DURATION</string>
+    <string name="total_calories">TOTAL CALORIES</string>
+    <string name="todays_progress">TODAY\'S PROGRESS</string>
+    <string name="weekly_summary">Weekly progress</string>
+    <string name="activities_label">Activities</string>
+    <string name="duration_label">Duration</string>
+    <string name="calories_label">Calories</string>
+    <string name="recent_activities">Recent activities</string>
+    <string name="tap_to_edit">Tap an item to edit</string>
+    <string name="add_activity">Add Activity</string>
+    <string name="add_activity_title">Add fitness activity</string>
+    <string name="edit_activity_title">Edit fitness activity</string>
+    <string name="activity_type">Activity type</string>
+    <string name="duration_minutes">Duration</string>
+    <string name="calories_burned">Calories burned</string>
+    <string name="date">Date</string>
+    <string name="notes_optional">Notes (optional)</string>
+    <string name="cancel">Cancel</string>
+    <string name="save_activity">Save</string>
+    <string name="update_activity">Update</string>
+    <string name="delete">Delete</string>
+    <string name="edit_activity">Edit activity</string>
+    <string name="delete_activity">Delete activity</string>
+    <string name="delete_activity_title">Delete activity?</string>
+    <string name="delete_activity_message">Remove \'%1$s\' from your fitness log? This cannot be undone.</string>
+    <string name="activity_added">Activity added successfully</string>
+    <string name="activity_updated">Activity updated successfully</string>
+    <string name="activity_deleted">Activity deleted</string>
+    <string name="database_error">Something went wrong. Please try again.</string>
+    <string name="error_activity_type">Activity type is required</string>
+    <string name="error_positive_duration">Enter a duration greater than 0</string>
+    <string name="error_positive_calories">Enter calories greater than 0</string>
+    <string name="error_date_required">Date is required</string>
+    <string name="no_activities_title">No activities yet</string>
+    <string name="no_activities_message">Add your first workout to start building your daily and weekly fitness summary.</string>
+    <string name="empty_state_icon">No fitness activities</string>
+    <string name="duration_value">%1$d min</string>
+    <string name="calories_value">%1$d kcal</string>
+    <string name="minutes_short_value">%1$d min</string>
+    <string name="kcal_short_value">%1$d kcal</string>
+    <string name="today_details">%1$d min • %2$d kcal</string>
+    <string name="week_range">%1$s – %2$s</string>
+    <string name="weekly_progress_value">%1$d / %2$d active min</string>
+
+    <string-array name="activity_types">
+        <item>Walking</item>
+        <item>Running</item>
+        <item>Cycling</item>
+        <item>Gym Workout</item>
+        <item>Yoga</item>
+        <item>Swimming</item>
+        <item>Football</item>
+        <item>Cricket</item>
+        <item>Hiking</item>
+        <item>Other</item>
+    </string-array>
+</resources>
