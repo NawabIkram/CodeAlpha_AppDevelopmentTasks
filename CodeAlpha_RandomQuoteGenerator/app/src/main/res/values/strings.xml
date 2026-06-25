@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Random Quote Generator</string>
+    <string name="app_title">Daily Inspiration</string>
+    <string name="app_subtitle">A small thought can change the direction of your day.</string>
+    <string name="quote_icon">“</string>
+    <string name="new_quote_button">✨ New Quote</string>
+    <string name="copy_button">Copy</string>
+    <string name="share_button">Share</string>
+    <string name="favorite_button">☆ Favorite</string>
+    <string name="favorited_button">★ Favorited</string>
+    <string name="view_favorites_button">View Favorites</string>
+    <string name="footer_text">CodeAlpha Internship • Task 2</string>
+    <string name="quote_format">“%1$s”</string>
+    <string name="author_format">— %1$s</string>
+    <string name="share_quote_format">“%1$s”\n\n— %2$s</string>
+    <string name="clipboard_label">Inspirational quote</string>
+    <string name="quote_copied">Quote copied to clipboard</string>
+    <string name="share_subject">An inspiring quote</string>
+    <string name="share_chooser_title">Share quote using</string>
+    <string name="added_to_favorites">Added to favorites</string>
+    <string name="removed_from_favorites">Removed from favorites</string>
+    <string name="favorites_title">Favorite Quotes</string>
+    <string name="favorites_subtitle">Your saved inspiration, available offline.</string>
+    <string name="no_favorites_yet">No favorites yet.\nTap ☆ Favorite to save a quote.</string>
+    <string name="favorites_cleared">All favorites cleared</string>
+    <string name="clear_all_button">Clear All</string>
+    <string name="close_button">Close</string>
+    <string name="remove_button">Remove</string>
+    <string name="add_favorite_description">Add this quote to favorites</string>
+    <string name="remove_favorite_description">Remove this quote from favorites</string>
+</resources>
