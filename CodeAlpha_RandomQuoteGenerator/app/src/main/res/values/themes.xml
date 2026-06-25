@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CodeAlphaRandomQuoteGenerator" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:colorAccent">@color/primary</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/gradient_start</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.CodeAlpha.Button" parent="android:style/Widget.Material.Button">
+        <item name="android:backgroundTint">@null</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="Widget.CodeAlpha.Button.Primary" parent="Widget.CodeAlpha.Button">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.CodeAlpha.Button.Secondary" parent="Widget.CodeAlpha.Button">
+        <item name="android:background">@drawable/bg_button_secondary</item>
+        <item name="android:textColor">@color/primary_dark</item>
+    </style>
+
+    <style name="Widget.CodeAlpha.Button.Danger" parent="Widget.CodeAlpha.Button">
+        <item name="android:background">@drawable/bg_button_danger</item>
+        <item name="android:textColor">@color/danger</item>
+    </style>
+
+    <style name="Widget.CodeAlpha.Button.Small" parent="Widget.CodeAlpha.Button">
+        <item name="android:background">@drawable/bg_button_secondary</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:textColor">@color/primary_dark</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+</resources>
