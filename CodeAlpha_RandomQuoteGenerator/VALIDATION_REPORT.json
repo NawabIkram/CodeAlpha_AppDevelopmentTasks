@@ -1,0 +1,20 @@
+{
+  "xml_files_parsed": 18,
+  "missing_xml_resources": [],
+  "missing_kotlin_resources": [],
+  "missing_viewbinding_ids": [],
+  "quote_count": 36,
+  "unique_quote_ids": 36,
+  "immediate_repeat_guard": true,
+  "fade_animation_present": true,
+  "shared_preferences_present": true,
+  "copy_present": true,
+  "share_present": true,
+  "internet_permission_absent": true,
+  "package_namespace_ok": true,
+  "min_sdk_23": true,
+  "compose_absent": true,
+  "wrapper_jar_sha256": "04c9542424b413cf3495879b0379a89a16558ec65bc2fd5f49e2105eb013bd10",
+  "status": "PASS",
+  "failures": []
+}
